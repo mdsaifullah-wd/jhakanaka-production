@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jhakanaka Production</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -12,12 +19,168 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              primary: "#FECC02",
+              dark: "#131313",
+              light: "#4E4E4E",
+            },
+            fontFamily: {
+              bebas: ["Bebas Neue", "cursive"],
+              montserrat: ["Montserrat", "sans-serif"],
             },
           },
         },
       };
     </script>
   </head>
-  <body></body>
+  <body class="font-bebas text-dark">
+    <header></header>
+    <main>
+      <!-- services -->
+      <section id="services" class="container mx-auto px-7 pt-32 pb-28">
+        <div class="text-center mb-20">
+          <p>Services</p>
+          <h1 class="text-7xl">What We Offer</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14">
+          <!-- One -->
+          <div
+            class="border-4 border-light px-4 py-5 text-center text-lg leading-6"
+          >
+            <img
+              src="./images/icons/camera.png"
+              width="70"
+              height="70"
+              alt=""
+              class="block mx-auto mb-4"
+            />
+            <h4 class="mb-3">Movies Director</h4>
+            <p class="font-montserrat">
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- Two -->
+          <div
+            class="border-4 border-light px-4 py-5 text-center text-lg leading-6"
+          >
+            <img
+              src="./images/icons/3d-glasss.png"
+              width="70"
+              height="70"
+              alt=""
+              class="block mx-auto mb-4"
+            />
+            <h4 class="mb-3">3D MOVIES</h4>
+            <p class="font-montserrat">
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- Three -->
+          <div
+            class="border-4 border-light px-4 py-5 text-center text-lg leading-6"
+          >
+            <img
+              src="./images/icons/director-chair.png"
+              width="70"
+              height="70"
+              alt=""
+              class="block mx-auto mb-4"
+            />
+            <h4 class="mb-3">Film maker</h4>
+            <p class="font-montserrat">
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- Four -->
+          <div
+            class="border-4 border-light px-4 py-5 text-center text-lg leading-6"
+          >
+            <img
+              src="./images/icons/film.png"
+              width="70"
+              height="70"
+              alt=""
+              class="block mx-auto mb-4"
+            />
+            <h4 class="mb-3">Studio Production</h4>
+            <p class="font-montserrat">
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- Five -->
+          <div
+            class="border-4 border-light px-4 py-5 text-center text-lg leading-6"
+          >
+            <img
+              src="./images/icons/theater.png"
+              width="70"
+              height="70"
+              alt=""
+              class="block mx-auto mb-4"
+            />
+            <h4 class="mb-3">Drama Movies</h4>
+            <p class="font-montserrat">
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- Six -->
+          <div
+            class="border-4 border-light px-4 py-5 text-center text-lg leading-6"
+          >
+            <img
+              src="./images/icons/rim.png"
+              width="70"
+              height="70"
+              alt=""
+              class="block mx-auto mb-4"
+            />
+            <h4 class="mb-3">Rolling Production</h4>
+            <p class="font-montserrat">
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- Seven -->
+          <div
+            class="border-4 border-light px-4 py-5 text-center text-lg leading-6"
+          >
+            <img
+              src="./images/icons/cut-board.png"
+              width="70"
+              height="70"
+              alt=""
+              class="block mx-auto mb-4"
+            />
+            <h4 class="mb-3">Movie Production</h4>
+            <p class="font-montserrat">
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- Eight -->
+          <div
+            class="border-4 border-light px-4 py-5 text-center text-lg leading-6"
+          >
+            <img
+              src="./images/icons/count-down.png"
+              width="70"
+              height="70"
+              alt=""
+              class="block mx-auto mb-4"
+            />
+            <h4 class="mb-3">Rolling Action</h4>
+            <p class="font-montserrat">
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
